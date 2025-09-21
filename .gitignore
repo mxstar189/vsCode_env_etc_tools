@@ -1,0 +1,36 @@
+# Ignore environment files and secrets
+.env
+.env.*
+
+# Python virtual environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+*.egg-info/
+
+# VS Code
+.vscode/
+
+# Database and OS files
+*.sqlite3
+*.db
+thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# IDEs and editors
+.idea/
+*.sublime-workspace
