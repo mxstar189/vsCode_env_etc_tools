@@ -30,6 +30,3 @@ Security guidance
 
 - Ensure `.env` is listed in `.gitignore` so secrets never get committed.
 - If a secret is accidentally committed, rotate credentials immediately and remove the secret from git history (use `git filter-repo` or similar).
-- Consider adding a pre-commit hook to block commits containing `API_KEY`, `SECRET`, `PASSWORD`, or other likely secret names.
-
-If you'd like, I can add a pre-commit configuration that checks for common secrets before commit.
